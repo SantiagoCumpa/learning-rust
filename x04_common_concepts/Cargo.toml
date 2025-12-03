@@ -1,5 +1,5 @@
 [package]
-name = "x03_guessing_name"
+name = "variables"
 version = "0.1.0"
 edition = "2024"
 

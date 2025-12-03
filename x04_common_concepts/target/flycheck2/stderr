@@ -1,0 +1,62 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.051330800s  INFO prepare_target{force=false package_id=variables v0.1.0 (C:\Users\x13615\OneDrive - Interbank\Documentos\learning-rust\x04_variables) target="variables"}: cargo::core::compiler::fingerprint: fingerprint error for variables v0.1.0 (C:\Users\x13615\OneDrive - Interbank\Documentos\learning-rust\x04_variables)/Check { test: false }/TargetInner { name: "variables", doc: true, ..: with_path("C:\\Users\\x13615\\OneDrive - Interbank\\Documentos\\learning-rust\\x04_variables\\src\\main.rs", Edition2024) }
+   0.051407200s  INFO prepare_target{force=false package_id=variables v0.1.0 (C:\Users\x13615\OneDrive - Interbank\Documentos\learning-rust\x04_variables) target="variables"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\x13615\OneDrive - Interbank\Documentos\learning-rust\x04_variables\target\debug\.fingerprint\variables-5a63bbc9e44b5950\bin-variables`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.077277900s  INFO prepare_target{force=false package_id=variables v0.1.0 (C:\Users\x13615\OneDrive - Interbank\Documentos\learning-rust\x04_variables) target="variables"}: cargo::core::compiler::fingerprint: fingerprint error for variables v0.1.0 (C:\Users\x13615\OneDrive - Interbank\Documentos\learning-rust\x04_variables)/Check { test: true }/TargetInner { name: "variables", doc: true, ..: with_path("C:\\Users\\x13615\\OneDrive - Interbank\\Documentos\\learning-rust\\x04_variables\\src\\main.rs", Edition2024) }
+   0.077320300s  INFO prepare_target{force=false package_id=variables v0.1.0 (C:\Users\x13615\OneDrive - Interbank\Documentos\learning-rust\x04_variables) target="variables"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\x13615\OneDrive - Interbank\Documentos\learning-rust\x04_variables\target\debug\.fingerprint\variables-d7216a90429ed25b\test-bin-variables`
+
+Caused by:
+    El sistema no puede encontrar el archivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking variables v0.1.0 (C:\Users\x13615\OneDrive - Interbank\Documentos\learning-rust\x04_variables)
+error: could not compile `variables` (bin "variables") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `variables` (bin "variables" test) due to 1 previous error
